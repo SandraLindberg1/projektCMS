@@ -13,9 +13,9 @@ $getImage = get_field('background');
 $image = $getImage['sizes']['large'];
 ?>
 
-<p><?php echo nl2br($description); ?></p>
+<h1><?php echo nl2br($description); ?></h1>
 <img class="img-fluid hero-img" src="<?php echo $image; ?>">
-<!-- <?php var_dump(get_field('background')); ?> -->
+<!-- <?php var_dump(get_field('background')); ?>
 
 <?php
 get_footer();
