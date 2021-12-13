@@ -1,0 +1,2 @@
+[Mon Dec 13 14:05:44.372840 2021] [proxy_fcgi:error] [pid 19904:tid 1324] [client 127.0.0.1:56235] AH01067: Failed to read FastCGI header, referer: http://localhost:10016/wp-admin/post.php?post=8&action=edit
+[Mon Dec 13 14:05:44.373836 2021] [proxy_fcgi:error] [pid 19904:tid 1324] (OS 10054)An existing connection was forcibly closed by the remote host.  : [client 127.0.0.1:56235] AH01075: Error dispatching request to :10016: , referer: http://localhost:10016/wp-admin/post.php?post=8&action=edit
